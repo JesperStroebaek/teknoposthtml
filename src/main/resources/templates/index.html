@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<header><h1>
+    Deres bestilling:
+</h1>
+</header>
+
+<h1>Deres Bil: </h1>
+<p>Antal Døre: <span th:text="${bil.døre}"></span></p>
+<p>Farve: <span th:text="${bil.farve}"></span></p>
+<p>Model: <span th:text="${bil.model}"></span></p>
+</body>
+
+</html>
